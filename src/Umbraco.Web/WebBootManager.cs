@@ -88,7 +88,7 @@ namespace Umbraco.Web
                 new MasterControllerFactory(FilteredControllerFactoriesResolver.Current));
 
             //set the render view engine
-            ViewEngines.Engines.Add(new RenderViewEngine());
+            ViewEngines.Engines.Add(new CustomRenderViewEngine());
             //set the plugin view engine
             ViewEngines.Engines.Add(new PluginViewEngine());
 

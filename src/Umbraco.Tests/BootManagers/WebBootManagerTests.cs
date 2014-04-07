@@ -18,7 +18,7 @@ namespace Umbraco.Tests.BootManagers
 				{
 					new FixedWebFormViewEngine(),
 					new FixedRazorViewEngine(),
-					new RenderViewEngine(),
+					new CustomRenderViewEngine(),
 					new PluginViewEngine()
 				};
 
@@ -38,7 +38,7 @@ namespace Umbraco.Tests.BootManagers
 				{
 					new FixedWebFormViewEngine(),
 					new FixedRazorViewEngine(),
-					new RenderViewEngine(),
+					new CustomRenderViewEngine(),
 					new PluginViewEngine()
 				};
 
